@@ -10,6 +10,6 @@
     <bean id="user" class="com.kuang.pojo.User" p:name="Magic" p:age="19" />
 
     <!-- c命名空间注入，通过构造注入：constructor -->
-    <bean id="user2" class="com.kuang.pojo.User" c:name="Ding" c:age="20" />
+    <bean id="user2" class="com.kuang.pojo.User" c:name="Ding" c:age="20" scope="singleton"/>
 
 </beans>
